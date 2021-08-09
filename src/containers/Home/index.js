@@ -21,7 +21,7 @@ const Home = (props)=>{
         e.preventDefault()
         let value = e.target.value;
         let id=todo.id
-        if(todo !== ''){
+        if(value !== ''){
         settodo({value,id})
         }
     }

@@ -26,6 +26,7 @@
 p{
     margin: 2%;
     color: #000;
+    height:25px;
 }
 
 @media only screen and (max-width: 600px) {
